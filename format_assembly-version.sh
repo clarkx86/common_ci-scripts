@@ -6,4 +6,4 @@
 #   Argument1: Build number
 #   returns:   formatted assembly version
 
-echo $1 | sed -r "s/^.+\./&${2}./g"
+echo $1 | sed -r 's/^.+\./&'$2'./g'
